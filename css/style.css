@@ -1,0 +1,680 @@
+/*Orange color  border:2px solid #9B2915;*/
+/* #9B2915 */
+* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*    padding:0;*/
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'lato', 'Arial', sans-serif !important;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/*---*/
+
+section {
+    padding: 80px 0;
+}
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(89, 13, 13, 0.803))), url(../img/hero.jpg);
+    background-image: linear-gradient(rgba(108, 8, 8, 0.701), rgba(0, 0, 0, 0.3)), url('http://www.africaoverseas.com/var/africaoverseas/storage/images/media/images/restaurant-tasty-african-food-5/16198-1-fre-FR/Restaurant-Tasty-African-Food-5_extra_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 190%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #9B2915;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/*------PARAGRAPH--------*/
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+.long-copy {
+    line-height: 140%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/*------LINKS------*/
+
+a:link,
+a:visited {
+    /*    color: #9B2915;*/
+    text-decoration: none;
+    padding-bottom: 1px;
+
+    /* border-bottom: 1px solid #9B2915;
+    -webkit-transition:border-bottom 0.2s, color 0.2s;
+    transition:border-bottom 0.2s, color 0.2s;
+*/
+}
+
+.section-city a:hover,
+.section-city a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+/*-----------------------------*/
+
+/** ICONS**/
+
+/*-----------------------------*/
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #9B2915;
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #9B2915;
+    /* secrest to align text and icon*/
+    font-size: 120%;
+    line-height: 120%;
+    margin-top: -2px;
+    margin-right: 5px;
+
+}
+
+.btn-full {
+    text-decoration: none;
+    padding: 10px 40px !important;
+    border: 2px solid #9B2915;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-right: 10px;
+    background-color: #9B2915;
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.btn-ghost {
+    text-decoration: none;
+    padding: 10px 30px !important;
+    border: 2px solid #9B2915;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-right: 10px;
+    color: #9B2915;
+    display: inline-block;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.btn-ghost:hover {
+    color: #fff;
+    background-color: #9B2915;
+
+}
+
+.btn-full:hover {
+    color: #c9c9c9;
+    background-color: #9B2915;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+
+#showcase1 {
+    min-height: 300px;
+    width: 1000px;
+    background: -webkit-gradient(linear, left top, left bottom, from(blue), to(grey));
+    background: linear-gradient(-180deg, blue, grey);
+}
+
+.logo {
+    height: 190px;
+    width: auto;
+    float: left;
+    margin-top: -15px;
+}
+
+.logo-black {
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px 0;
+}
+
+.logo-black {
+    display: none;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    color: white;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 70%;
+    border-bottom: 2px solid #9B2915 transparent;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #9B2915;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: white;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 999;
+}
+
+.sticky-nav .main-nav li a:link,
+.sticky-nav .main-nav li a:visited {
+    padding: 15px 0;
+    color: #555;
+}
+
+.sticky-nav .logo {
+    display: none;
+}
+
+.sticky-nav .logo-black {
+    display: block;
+}
+
+.sticky-nav .main-nav {
+    margin-top: 18px;
+}
+
+/*MEALS*/
+
+.section-meals {
+    padding: 0;
+    margin: 0 auto;
+    margin-left: -55px;
+    margin-right: -55px;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: inline-block;
+    float: left;
+    width: 25%;
+
+
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: 0.5s, opacity 0.5s;
+    transition: 0.5s, opacity 0.5s;
+
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+/*---------------------------------------*/
+
+/*     HOW IT WORKS SECTION */
+
+/*---------------------------------------*/
+
+.section-step {
+    background-color: #f4f4f4;
+
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #9B2915;
+    border: 2px solid #9B2915;
+    display: inline-block;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 15px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: none;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/*---------------------------------------*/
+
+/*    CITY */
+
+/*---------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-features {
+    margin-bottom: 5px;
+}
+
+/*---------------------------------------*/
+
+/*   CUSTOMER TESTIMIONIALS */
+
+/*---------------------------------------*/
+
+.section-testimonials {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.56)), to(rgba(0, 0, 0, 0.76))), url(../img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.76)), url('http://buzzsouthafrica.com/wp-content/uploads/Chicken-Biryani.jpg');
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 5px;
+
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+cite img {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*---------------------------------------*/
+
+/*    SIGN UP */
+
+/*---------------------------------------*/
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #868383;
+    box-shadow: 0 2px 2px #868383;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #9B2915;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+    margin-left: -25px;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+
+}
+
+/*---------------------------------------*/
+
+/*    CONTACT FORM */
+
+/*---------------------------------------*/
+
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: 'lato', 'Arial', sans-serif !important;
+    font-weight: 300;
+}
+
+textarea {
+    height: 100% !important;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+.map-box {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 560px;
+    position: relative;
+    z-index: 0;
+
+}
+
+.form-box {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 560px;
+    background: rgba(255, 255, 255, 0.762);
+    padding-top: 40px;
+}
+
+.form-header {
+    text-align: center !important;
+    font-size: 130%;
+}
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none !important;
+    border: none;
+    color: #888;
+
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd !important;
+}
+
+.social-links li a:link,
+.socila-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-googleplus,
+.ion-social-twitter,
+.ion-social-instagram {
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 30px;
+}
+
+footer p a {
+    color: #888;
+}
